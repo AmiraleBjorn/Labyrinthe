@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/Maps/LabyrintheMap.umap",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/GM_Base.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/GM_Labyrinthe.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/PC_Character.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/IMC_mouvement.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/IA_test.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/PC_Character.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/IMC_mouvement.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/IA_test.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/GM_Labyrinthe.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_test.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_mouvement.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/PC_Character.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Horizontal.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Moove.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Moove.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Mouse.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Mouse.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Move.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_move.uasset"
+			]
+		}
+	]
+}
