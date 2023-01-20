@@ -25,7 +25,14 @@
 				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Mouse.uasset",
 				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Mouse.uasset",
 				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Move.uasset",
-				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_move.uasset"
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Move.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_LignTrace.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Use.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/AC_Use.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Levier.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Torche.uasset",
+				"C:/Users/Student/Documents/GitHub/Labyrinthe/Content/Le_Labyrinthe/Blueprints/BP_Door.uasset"
 			]
 		}
 	]
