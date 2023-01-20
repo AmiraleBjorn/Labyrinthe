@@ -3856,3 +3856,341 @@ Context 1/2
 [2023.01.20-15.01.54:604][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
 [2023.01.20-15.01.54:614][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
 [2023.01.20-15.01.54:668][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.01.20-15.08.25:794][671]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [268689ms] waiting for h/w. InstanceID=1
+[2023.01.20-15.08.27:710][671]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24000
+[2023.01.20-15.08.27:738][672]LogAutomationController: Ignoring very large delta of 268.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.01.20-15.08.28:038][672]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f7c29c7b-523f-4ea9-bae4-e0d2af4e74bb}, Name=Haut-parleurs (Realtek High Definition Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=204.50
+[2023.01.20-15.08.28:038][672]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.01.20-15.08.28:045][672]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.20-15.09.02:556][872]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-15.09.02:563][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-15.09.02:563][872]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 17:09:02)
+[2023.01.20-15.09.02:564][872]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.09.02:566][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002897s)
+[2023.01.20-15.09.02:566][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002945s)
+[2023.01.20-15.09.02:567][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-15.09.02:567][872]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-15.09.02:567][872]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2023.01.20-15.09.02:621][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.01.20-15.09.02:624][872]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.01.20-15.09.02:624][872]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-15.09.02:624][872]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-15.09.02:624][872]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-15.09.02:625][872]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-15.09.02:625][872]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-15.09.02:625][872]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-15.09.02:625][872]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-15.09.02:625][872]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-15.09.02:625][872]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-15.09.02:625][872]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-15.09.02:625][872]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-15.09.02:627][872]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-15.09.02:692][872]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek High Definition Audio)
+[2023.01.20-15.09.02:693][872]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-15.09.02:693][872]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-15.09.02:693][872]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-15.09.02:694][872]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.01.20-15.09.02:694][872]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.01.20-15.09.02:696][872]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.01.20-15.09.02:696][872]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.01.20-15.09.02:696][872]LogInit: FAudioDevice initialized.
+[2023.01.20-15.09.02:696][872]LogAudio: Display: Audio Device (ID: 10) registered with world 'LabyrintheMap'.
+[2023.01.20-15.09.02:699][872]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-15.09.02:700][872]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 60) at 2023.01.20-16.09.02
+[2023.01.20-15.09.02:700][872]LogWorld: Bringing up level for play took: 0.000899
+[2023.01.20-15.09.02:703][872]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.01.20-15.09.02:706][872]PIE: Server logged in
+[2023.01.20-15.09.02:706][872]PIE: Play in editor total start time 0,144 seconds.
+[2023.01.20-15.09.09:241][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.09.09:241][188]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.09.09:241][188]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-15.09.09:241][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.09.09:254][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-15.09.09:260][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.09.09:306][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.09.09:306][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.01.20-15.09.09:309][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.01.20-15.09.09:317][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.01.20-15.09.09:370][189]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.01.20-15.09.46:429][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.09.46:455][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/PC_Character" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/PC_Character.uasset" SILENT=true
+[2023.01.20-15.09.46:464][ 53]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/PC_Character
+[2023.01.20-15.09.46:464][ 53]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/PC_CharacterEFA847A949731BEB0E5B659F63A13329.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/PC_Character.uasset'
+[2023.01.20-15.09.46:472][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 4.02 sec)
+[2023.01.20-15.09.46:479][ 53]AssetCheck: New page: Asset Save: PC_Character
+[2023.01.20-15.09.46:479][ 53]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPersonArms/PC_Character.PC_Character
+[2023.01.20-15.09.49:119][209]BlueprintLog: New page: Compile PC_Character
+[2023.01.20-15.09.49:187][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.01.20-15.09.51:411][324]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-15.09.51:417][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-15.09.51:417][324]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 17:09:51)
+[2023.01.20-15.09.51:440][324]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.09.51:443][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002245s)
+[2023.01.20-15.09.51:443][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002288s)
+[2023.01.20-15.09.51:443][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-15.09.51:443][324]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-15.09.51:443][324]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2023.01.20-15.09.51:495][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.01.20-15.09.51:497][324]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-15.09.51:497][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-15.09.51:497][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-15.09.51:498][324]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-15.09.51:498][324]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-15.09.51:498][324]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-15.09.51:500][324]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-15.09.51:562][324]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek High Definition Audio)
+[2023.01.20-15.09.51:562][324]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-15.09.51:562][324]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-15.09.51:562][324]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-15.09.51:563][324]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.01.20-15.09.51:563][324]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.01.20-15.09.51:565][324]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.01.20-15.09.51:565][324]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.01.20-15.09.51:565][324]LogInit: FAudioDevice initialized.
+[2023.01.20-15.09.51:565][324]LogAudio: Display: Audio Device (ID: 11) registered with world 'LabyrintheMap'.
+[2023.01.20-15.09.51:569][324]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-15.09.51:569][324]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 60) at 2023.01.20-16.09.51
+[2023.01.20-15.09.51:570][324]LogWorld: Bringing up level for play took: 0.000835
+[2023.01.20-15.09.51:572][324]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.01.20-15.09.51:574][324]PIE: Server logged in
+[2023.01.20-15.09.51:575][324]PIE: Play in editor total start time 0,157 seconds.
+[2023.01.20-15.09.56:300][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.09.56:301][547]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.09.56:301][547]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-15.09.56:301][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.09.56:320][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-15.09.56:326][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.09.56:382][547]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.20-15.09.56:382][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.20-15.09.56:385][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.20-15.09.56:392][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.09.56:396][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.01.20-15.09.56:470][548]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.01.20-15.12.38:905][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.01.20-15.12.38:906][417]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Le_Labyrinthe/Maps/LabyrintheMap' took 0.053
+[2023.01.20-15.12.38:907][417]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonArms/PC_Character] ([2] browsable assets)...
+[2023.01.20-15.12.38:907][417]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonArms/PC_Character]
+[2023.01.20-15.12.38:918][417]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPersonArms/PC_Character_Auto6
+[2023.01.20-15.12.38:918][417]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/PC_Character_Auto6B7785CF548FF263FE766709B545AD89F.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/Autosaves/Game/FirstPersonArms/PC_Character_Auto6.uasset'
+[2023.01.20-15.12.38:919][417]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonArms/GM_Labyrinthe] ([2] browsable assets)...
+[2023.01.20-15.12.38:920][417]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonArms/GM_Labyrinthe]
+[2023.01.20-15.12.38:923][417]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPersonArms/GM_Labyrinthe_Auto6
+[2023.01.20-15.12.38:923][417]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/GM_Labyrinthe_Auto6A51D4E9E4B07BA2A0B02D0A0FC08E5E2.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/Autosaves/Game/FirstPersonArms/GM_Labyrinthe_Auto6.uasset'
+[2023.01.20-15.12.38:924][417]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.01.20-15.13.37:730][ 67]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/FirstPersonArms/Input/IA_Mouse.IA_Mouse
+[2023.01.20-15.14.00:733][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.14.00:766][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/Input/IA_Mouse" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Mouse.uasset" SILENT=true
+[2023.01.20-15.14.00:767][333]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/Input/IA_Mouse
+[2023.01.20-15.14.00:768][333]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/IA_MouseD05ADEF74D850932C9B132B8B8BF7CF3.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IA_Mouse.uasset'
+[2023.01.20-15.14.00:777][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 4.06 sec)
+[2023.01.20-15.14.00:785][333]AssetCheck: New page: Asset Save: IA_Mouse
+[2023.01.20-15.14.00:786][333]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPersonArms/Input/IA_Mouse.IA_Mouse
+[2023.01.20-15.14.03:041][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.14.03:073][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/GM_Labyrinthe" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/GM_Labyrinthe.uasset" SILENT=true
+[2023.01.20-15.14.03:076][469]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/GM_Labyrinthe
+[2023.01.20-15.14.03:077][469]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/GM_Labyrinthe3026111C4C29D1A20B0904891FCEE022.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/GM_Labyrinthe.uasset'
+[2023.01.20-15.14.03:085][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 4.10 sec)
+[2023.01.20-15.14.03:091][469]AssetCheck: New page: Asset Save: GM_Labyrinthe
+[2023.01.20-15.14.03:091][469]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPersonArms/GM_Labyrinthe.GM_Labyrinthe
+[2023.01.20-15.15.18:164][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.15.18:207][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/PC_Character" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/PC_Character.uasset" SILENT=true
+[2023.01.20-15.15.18:217][246]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/PC_Character
+[2023.01.20-15.15.18:218][246]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/PC_Character24D359004946A383D93E21BDEA4131B8.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/PC_Character.uasset'
+[2023.01.20-15.15.18:226][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 4.16 sec)
+[2023.01.20-15.15.18:234][246]AssetCheck: New page: Asset Save: PC_Character
+[2023.01.20-15.15.18:234][246]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPersonArms/PC_Character.PC_Character
+[2023.01.20-15.15.19:542][323]BlueprintLog: New page: Compile PC_Character
+[2023.01.20-15.15.19:626][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.20-15.15.22:656][479]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-15.15.22:663][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-15.15.22:664][479]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 17:15:22)
+[2023.01.20-15.15.22:664][479]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.15.22:665][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
+[2023.01.20-15.15.22:665][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.002620s)
+[2023.01.20-15.15.22:667][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-15.15.22:667][479]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-15.15.22:668][479]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2023.01.20-15.15.22:715][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.01.20-15.15.22:716][479]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.01.20-15.15.22:716][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-15.15.22:717][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-15.15.22:717][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-15.15.22:717][479]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-15.15.22:717][479]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-15.15.22:717][479]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-15.15.22:720][479]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-15.15.22:782][479]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek High Definition Audio)
+[2023.01.20-15.15.22:783][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-15.15.22:783][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-15.15.22:783][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-15.15.22:784][479]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.01.20-15.15.22:784][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.01.20-15.15.22:786][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.01.20-15.15.22:786][479]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.01.20-15.15.22:786][479]LogInit: FAudioDevice initialized.
+[2023.01.20-15.15.22:786][479]LogAudio: Display: Audio Device (ID: 12) registered with world 'LabyrintheMap'.
+[2023.01.20-15.15.22:790][479]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-15.15.22:790][479]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 60) at 2023.01.20-16.15.22
+[2023.01.20-15.15.22:791][479]LogWorld: Bringing up level for play took: 0.000866
+[2023.01.20-15.15.22:793][479]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.01.20-15.15.22:795][479]PIE: Server logged in
+[2023.01.20-15.15.22:796][479]PIE: Play in editor total start time 0,134 seconds.
+[2023.01.20-15.15.39:720][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.15.39:721][312]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.15.39:721][312]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-15.15.39:721][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.15.39:741][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-15.15.39:746][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.15.39:792][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.15.39:792][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.20-15.15.39:794][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.20-15.15.39:804][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.01.20-15.15.39:857][313]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.01.20-15.16.50:218][966]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-15.16.50:219][966]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-15.16.50:219][966]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.20-15.16.56:413][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.16.56:448][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/Input/IMC_Move" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Move.uasset" SILENT=true
+[2023.01.20-15.16.56:449][332]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/Input/IMC_Move
+[2023.01.20-15.16.56:451][332]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/IMC_Move2A9EB8B34CB858D6A8C879B524A79FC6.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Move.uasset'
+[2023.01.20-15.16.56:458][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 4.21 sec)
+[2023.01.20-15.16.56:464][332]AssetCheck: New page: Asset Save: IMC_Move
+[2023.01.20-15.16.56:464][332]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPersonArms/Input/IMC_Move.IMC_Move
+[2023.01.20-15.16.59:389][490]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-15.16.59:396][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-15.16.59:396][490]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 17:16:59)
+[2023.01.20-15.16.59:396][490]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.16.59:400][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003851s)
+[2023.01.20-15.16.59:400][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.003911s)
+[2023.01.20-15.16.59:400][490]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-15.16.59:401][490]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-15.16.59:401][490]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2023.01.20-15.16.59:451][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.01.20-15.16.59:454][490]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-15.16.59:454][490]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-15.16.59:455][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-15.16.59:455][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-15.16.59:455][490]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-15.16.59:455][490]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-15.16.59:455][490]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-15.16.59:457][490]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-15.16.59:521][490]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek High Definition Audio)
+[2023.01.20-15.16.59:521][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-15.16.59:521][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-15.16.59:521][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-15.16.59:522][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.01.20-15.16.59:522][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.01.20-15.16.59:524][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.01.20-15.16.59:525][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.01.20-15.16.59:525][490]LogInit: FAudioDevice initialized.
+[2023.01.20-15.16.59:525][490]LogAudio: Display: Audio Device (ID: 13) registered with world 'LabyrintheMap'.
+[2023.01.20-15.16.59:528][490]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-15.16.59:528][490]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 60) at 2023.01.20-16.16.59
+[2023.01.20-15.16.59:529][490]LogWorld: Bringing up level for play took: 0.000870
+[2023.01.20-15.16.59:531][490]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.01.20-15.16.59:533][490]PIE: Server logged in
+[2023.01.20-15.16.59:534][490]PIE: Play in editor total start time 0,139 seconds.
+[2023.01.20-15.17.05:580][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.17.05:580][789]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.17.05:580][789]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-15.17.05:581][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.17.05:590][789]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-15.17.05:595][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.17.05:643][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.17.05:643][789]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.20-15.17.05:645][789]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.20-15.17.05:655][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.01.20-15.17.05:709][790]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.01.20-15.17.16:071][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.17.16:114][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/Input/IMC_Move" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Move.uasset" SILENT=true
+[2023.01.20-15.17.16:116][387]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/Input/IMC_Move
+[2023.01.20-15.17.16:116][387]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/IMC_Move0FF1C2294440E06753CD3581EDEFB67D.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/IMC_Move.uasset'
+[2023.01.20-15.17.16:124][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 4.26 sec)
+[2023.01.20-15.17.16:131][387]AssetCheck: New page: Asset Save: IMC_Move
+[2023.01.20-15.17.16:131][387]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPersonArms/Input/IMC_Move.IMC_Move
+[2023.01.20-15.17.18:044][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.20-15.17.18:051][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.20-15.17.18:051][491]PIE: New page: PIE session: LabyrintheMap (20 janv. 2023 à 17:17:18)
+[2023.01.20-15.17.18:052][491]LogPlayLevel: Creating play world package: /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.17.18:056][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003908s)
+[2023.01.20-15.17.18:056][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Le_Labyrinthe/Maps/LabyrintheMap.LabyrintheMap to /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap (0.003957s)
+[2023.01.20-15.17.18:056][491]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-15.17.18:056][491]LogAIModule: Creating AISystem for world LabyrintheMap
+[2023.01.20-15.17.18:057][491]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2023.01.20-15.17.18:110][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.01.20-15.17.18:113][491]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.20-15.17.18:113][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.20-15.17.18:113][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.20-15.17.18:114][491]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.20-15.17.18:114][491]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.20-15.17.18:114][491]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.20-15.17.18:116][491]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.20-15.17.18:179][491]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Realtek High Definition Audio)
+[2023.01.20-15.17.18:180][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.20-15.17.18:180][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.20-15.17.18:180][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.20-15.17.18:182][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.01.20-15.17.18:182][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.01.20-15.17.18:184][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.01.20-15.17.18:184][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.01.20-15.17.18:184][491]LogInit: FAudioDevice initialized.
+[2023.01.20-15.17.18:184][491]LogAudio: Display: Audio Device (ID: 14) registered with world 'LabyrintheMap'.
+[2023.01.20-15.17.18:187][491]LogLoad: Game class is 'GM_Labyrinthe_C'
+[2023.01.20-15.17.18:188][491]LogWorld: Bringing World /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap.LabyrintheMap up for play (max tick rate 60) at 2023.01.20-16.17.18
+[2023.01.20-15.17.18:188][491]LogWorld: Bringing up level for play took: 0.000829
+[2023.01.20-15.17.18:191][491]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.20-15.17.18:193][491]PIE: Server logged in
+[2023.01.20-15.17.18:194][491]PIE: Play in editor total start time 0,142 seconds.
+[2023.01.20-15.17.30:410][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.17.30:410][ 75]LogWorld: BeginTearingDown for /Game/Le_Labyrinthe/Maps/UEDPIE_0_LabyrintheMap
+[2023.01.20-15.17.30:410][ 75]LogWorld: UWorld::CleanupWorld for LabyrintheMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-15.17.30:410][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.17.30:422][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.20-15.17.30:426][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-15.17.30:473][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.20-15.17.30:474][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.01.20-15.17.30:475][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.01.20-15.17.30:484][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.01.20-15.17.30:537][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.PC_Character_C' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.SKEL_PC_Character_C' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.PC_Character:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.SKEL_PC_Character_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.SKEL_PC_Character_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:935][863]LogMetaData: Removing '/Game/FirstPersonArms/Input/PC_Character.PC_Character_C:ReceiveBeginPlay' ref from Metadata '/Game/FirstPersonArms/PC_Character.PackageMetaData'
+[2023.01.20-15.17.47:936][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.20-15.17.47:965][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/GM_Labyrinthe" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/GM_Labyrinthe.uasset" SILENT=true
+[2023.01.20-15.17.47:968][863]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/GM_Labyrinthe
+[2023.01.20-15.17.47:969][863]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/GM_LabyrintheF0E07F9E4C98ACA0E3BB5F8D23626863.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/GM_Labyrinthe.uasset'
+[2023.01.20-15.17.47:971][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonArms/Input/PC_Character" FILE="../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/PC_Character.uasset" SILENT=true
+[2023.01.20-15.17.47:981][863]LogSavePackage: Moving output files for package: /Game/FirstPersonArms/Input/PC_Character
+[2023.01.20-15.17.47:981][863]LogSavePackage: Moving '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Saved/PC_CharacterFB1AE965432588A14D09FBAAA45D7ECD.tmp' to '../../../../../../Users/Student/Documents/GitHub/Labyrinthe/Content/FirstPersonArms/Input/PC_Character.uasset'
+[2023.01.20-15.17.47:989][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 4.32 sec)
+[2023.01.20-15.17.48:055][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.20-15.17.48:104][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.20-15.17.48:150][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.01.20-15.17.48:174][863]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-15.17.48:174][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPersonArms/GM_Labyrinthe.GM_Labyrinthe
+[2023.01.20-15.17.48:174][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPersonArms/Input/PC_Character.PC_Character
